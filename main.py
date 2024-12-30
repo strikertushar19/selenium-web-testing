@@ -12,7 +12,7 @@ class PinpointTestCase(unittest.TestCase):
 
     def test_login(self):
         try:
-            login_url = "Put_your_desired_website_url"
+            login_url = "https://pinpoint.idearise.co/"
             self.browser.get(login_url)
 
 
